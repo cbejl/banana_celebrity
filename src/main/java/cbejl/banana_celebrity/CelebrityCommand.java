@@ -44,11 +44,13 @@ public class CelebrityCommand implements CommandExecutor {
             if(player.hasPermission("kepka")) {
                 if(strings[0].equals("reload")) {
                     Banana_celebrity.getInstance().reloadConfig();
+                    System.out.println("Плагин перезагружен!");
                     return true;
                 }
             }
         } else if(strings[0].equals("reload")) {
             Banana_celebrity.getInstance().reloadConfig();
+            System.out.println("Плагин перезагружен!");
             return true;
         }
         return false;
