@@ -1,0 +1,22 @@
+name: banana_celebrity
+version: '${project.version}'
+main: cbejl.banana_celebrity.Banana_celebrity
+api-version: '1.20'
+authors: [CbeJl_Tpycbl]
+depend: [PlaceholderAPI]
+commands:
+  celebrity:
+    description: "че дел?"
+    permission: "celebrity.do"
+  celebrity stream:
+    description: "стримеш?"
+    permission: "celebrity.do"
+  celebrity rec:
+    description: "записуеш?"
+    permission: "celebrity.do"
+  celebrity justplay:
+    description: "просто играешь?"
+    permission: "celebrity.do"
+  celebrity reload:
+    description: "рестартиш?"
+    permission: "kepka"
